@@ -32,5 +32,47 @@ article p {
 }
 
 .recipe {
+  position: relative;
   margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+.list-left {
+  position: absolute;
+  top: 30px;
+  left: 80px;
+
+}
+
+.list-right {
+  position: absolute;
+  top: 30px;
+  left: 450px;
+
+}
+
+.author {
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+.author img {
+  float: left;
+  margin-right: 20px;
+}
+
+.author p {
+  font-size: 20px;
+  width: 675px;
+  float: left;
+}
+
+button {
+  float: right;
+}
+
+footer {
+  margin-top: 30px;
+  margin-bottom: 60px;
+  text-align: center;
 }
