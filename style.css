@@ -1,15 +1,26 @@
 body {
   margin: auto;
-  width: 900px;
+  width: 960px;
 }
 
 .clearfix {
   clear: both;
 }
 
+#delicious {
+  font-family: Yellowtail;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+header {
+  margin-top: 30px;
+}
+
 .logo {
   float: left;
-  margin-right: 5px;
+  margin-right: 8px;
+  width: 60px;
 }
 
 #icons li{
@@ -23,6 +34,10 @@ body {
 
 #print {
   float: right;
+}
+
+#choco {
+  width: 960px;
 }
 
 article p {
