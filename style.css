@@ -7,12 +7,6 @@ body {
   clear: both;
 }
 
-#delicious {
-  font-family: Yellowtail;
-  font-weight: bold;
-  font-size: 50px;
-}
-
 header {
   margin-top: 30px;
 }
@@ -23,9 +17,23 @@ header {
   width: 60px;
 }
 
-#icons li{
-  display: inline-block;
+.title {
+  float: left;
+  outline: 1px dashed;
+}
+
+#delicious {
+  font-family: Yellowtail;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.icons {
   float: right;
+}
+
+.icons ul li {
+  display: inline-block;
 }
 
 #space {
