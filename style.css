@@ -14,7 +14,7 @@ header {
 .logo {
   float: left;
   margin-right: 8px;
-  width: 60px;
+  /*width: 60px;*/
 }
 
 .title {
@@ -23,6 +23,7 @@ header {
 }
 
 #delicious {
+  margin-left: -6px;
   font-family: Yellowtail;
   font-weight: bold;
   font-size: 50px;
@@ -30,14 +31,11 @@ header {
 
 .icons {
   float: right;
+  margin-top: 24px;
 }
 
 .icons ul li {
   display: inline-block;
-}
-
-#space {
-  margin: 0 2px;
 }
 
 #print {
