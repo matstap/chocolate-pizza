@@ -1,6 +1,6 @@
 body {
   margin: auto;
-  width: 960px;
+  width: 900px;
 }
 
 .clearfix {
@@ -75,7 +75,7 @@ h1 {
 }
 
 #choco {
-  width: 960px;
+  width: 900px;
   margin-top: 32px;
 }
 
@@ -94,6 +94,10 @@ article p {
   font-family: cursive;
   font-size: 20px;
   line-height: 31px;
+}
+
+.recipe img {
+  width: 900px;
 }
 
 .list-left {
