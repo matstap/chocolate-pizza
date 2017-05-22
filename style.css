@@ -1,6 +1,6 @@
 body {
   margin: auto;
-  width: 900px;
+  width: 960px;
 }
 
 .clearfix {
@@ -29,7 +29,8 @@ header {
 }
 
 #food {
-  font-size: 10px
+  font-size: 10px;
+  font-family: arial;
 }
 
 .icons {
@@ -42,8 +43,13 @@ header {
   margin-left: -2px;
 }
 
+.icons ul li:nth-child(3) {
+  margin-left: -3px;
+}
+
 .icons ul li:nth-child(5) {
   margin-left: -3px;
+  margin-right: -1px;
 }
 
 .icons ul li:nth-child(6) {
@@ -55,36 +61,42 @@ header {
   margin-bottom: 52px;
   height: 13px;
   width: 100%;
-  background: black;
+  background-image: repeating-linear-gradient(45deg, white, white 1px, #bfb8be 1px, #bfb8be 2px);
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 48px;
   font-weight: bold;
+  font-family: 'Oswald';
 }
 
 .posted {
   float: left;
   font-size: 12px;
+  font-family: arial;
+  color: #bfb8be;
+  margin-top: 12px;
 }
 
 .print {
   float: right;
   font-size: 12px;
+  font-family: arial;
   margin-left: 2px;
+  color: #bfb8be;
 }
 
 #choco {
-  width: 900px;
+  width: 960px;
   margin-top: 32px;
 }
-
 
 article p {
   margin-top: 30px;
   text-indent: 30px;
   line-height: 25px;
   font-size: 21px;
+  color: #332a28;
 }
 
 .recipe {
@@ -92,6 +104,7 @@ article p {
   margin-top: 30px;
   font-family: cursive;
   font-size: 20px;
+  color: #48402c;
   line-height: 31px;
 }
 
@@ -100,7 +113,7 @@ input {
 }
 
 .recipe img {
-  width: 900px;
+  width: 960px;
 }
 
 .list-left {
@@ -114,7 +127,7 @@ input {
   width: 400px;
   position: absolute;
   top: 36px;
-  left: 450px;
+  left: 490px;
 }
 
 .bottom {
@@ -139,6 +152,7 @@ input {
 
 .author p {
   font-size: 20px;
+  color: #332a28;
   line-height: 25px;
   margin-top: 10px;
   width: 600px;
@@ -150,6 +164,8 @@ button {
   float: right;
   background-color: #bc7058;
   font-size: 20px;
+  font-family: arial;
+  letter-spacing: -1px;
   color: white;
   border: none;
   width: 180px;
