@@ -52,19 +52,39 @@ header {
 
 .top-divider {
   margin-top: 30px;
+  margin-bottom: 52px;
+  height: 13px;
+  width: 100%;
+  background: black;
 }
 
-#print {
+h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.posted {
+  float: left;
+  font-size: 12px;
+}
+
+.print {
   float: right;
+  font-size: 12px;
+  margin-left: 2px;
 }
 
 #choco {
   width: 960px;
+  margin-top: 32px;
 }
+
 
 article p {
   margin-top: 30px;
-  text-align: center;
+  text-indent: 30px;
+  line-height: 30px;
+  font-size: 15px;
   font-size: 20px;
 }
 
