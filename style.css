@@ -106,7 +106,7 @@ article p {
   font-family: cursive;
   font-size: 20px;
   color: #48402c;
-  line-height: 31px;
+  line-height: 33px;
 }
 
 input {
@@ -119,7 +119,7 @@ input {
 
 .list-left {
   position: absolute;
-  top: 36px;
+  top: 41px;
   left: 60px;
 
 }
@@ -127,7 +127,7 @@ input {
 .list-right {
   width: 400px;
   position: absolute;
-  top: 36px;
+  top: 41px;
   left: 490px;
 }
 
