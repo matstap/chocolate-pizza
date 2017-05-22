@@ -61,7 +61,7 @@ header {
   margin-bottom: 52px;
   height: 13px;
   width: 100%;
-  background-image: repeating-linear-gradient(45deg, white, white 1px, #bfb8be 1px, #bfb8be 2px);
+  background-image: repeating-linear-gradient(-45deg, white, white 1px, #bfb8be 1px, #bfb8be 2px);
 }
 
 h1 {
@@ -181,7 +181,7 @@ footer {
 
 footer hr {
   display: inline-block;
-  width: 428px;
+  width: 458px;
 }
 
 footer img {
