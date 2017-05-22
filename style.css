@@ -39,6 +39,15 @@ header {
 
 .icons ul li {
   display: inline-block;
+  margin-left: -2px;
+}
+
+.icons ul li:nth-child(5) {
+  margin-left: -3px;
+}
+
+.icons ul li:nth-child(6) {
+  margin-right: 8px;
 }
 
 .top-divider {
