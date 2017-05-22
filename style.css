@@ -179,9 +179,12 @@ footer {
   text-align: center;
 }
 
-footer hr {
+.halfline {
   display: inline-block;
-  width: 458px;
+  width: 47%;
+  height: 1px;
+  vertical-align: 85%;
+  background-color: #bfb8be;
 }
 
 footer img {
