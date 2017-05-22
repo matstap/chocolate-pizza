@@ -127,6 +127,11 @@ input {
   margin-bottom: 60px;
 }
 
+.author h3 {
+  font-size: 22px;
+  font-weight: bolder;
+}
+
 .author img {
   float: left;
   margin-right: 20px;
@@ -134,16 +139,40 @@ input {
 
 .author p {
   font-size: 20px;
-  width: 675px;
+  line-height: 25px;
+  margin-top: 10px;
+  width: 600px;
   float: left;
 }
 
 button {
+  margin-top: -15px;
   float: right;
+  background-color: #bc7058;
+  font-size: 20px;
+  color: white;
+  border: none;
+  width: 180px;
+  height: 55px;
 }
 
 footer {
-  margin-top: 30px;
-  margin-bottom: 60px;
+  margin-top: 140px;
+  margin-bottom: 80px;
   text-align: center;
+}
+
+footer hr {
+  display: inline-block;
+  width: 428px;
+}
+
+footer img {
+  display: inline-block;
+}
+
+footer p {
+  margin-top: 30px;
+  line-height: 22px;
+  color: #bfb8be;
 }
